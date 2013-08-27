@@ -1,0 +1,18 @@
+[submodule "bundle/solarized"]
+	path = bundle/solarized
+	url = git@github.com:altercation/vim-colors-solarized.git
+[submodule "bundle/command-t"]
+	path = bundle/command-t
+	url = git@github.com:wincent/Command-T.git
+[submodule "bundle/coffeescript"]
+	path = bundle/coffeescript
+	url = git@github.com:kchmck/vim-coffee-script.git
+[submodule "bundle/commentary"]
+	path = bundle/commentary
+	url = git@github.com:tpope/vim-commentary.git
+[submodule "bundle/javascript"]
+	path = bundle/javascript
+	url = git@github.com:pangloss/vim-javascript.git
+[submodule "bundle/markdown"]
+	path = bundle/markdown
+	url = git@github.com:tpope/vim-markdown.git
