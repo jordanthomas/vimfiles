@@ -7,14 +7,14 @@ set lazyredraw
 set directory=~/.vim/tmp//,/tmp
 
 "" Style
+colorscheme solarized
+set background=dark
 set guifont=Source\ Code\ Pro\ Light:h14
 set linespace=2
-set background=dark
-colorscheme solarized
 set synmaxcol=200               " don't try to highlight long lines
 
 "" Whitespace
-set nowrap                      " don't wrap lines
+set wrap                        " wrap lines
 set tabstop=2 shiftwidth=2      " a tab is two spaces (or set this to 4)
 set expandtab                   " use spaces, not tabs (optional)
 set backspace=indent,eol,start  " backspace through everything in insert mode
