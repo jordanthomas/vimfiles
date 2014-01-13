@@ -6,5 +6,4 @@ Note: Uses [pathogen.vim](https://github.com/tpope/vim-pathogen) to manage plugi
 
     1. Clone this repo into ~/.vim
     2. Initialize submodules
-    3. Compile command-t plugin
-    4. Enjoy
+    3. Enjoy
