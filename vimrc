@@ -1,4 +1,5 @@
 execute pathogen#infect()
+let mapleader=","
 set nocompatible
 set encoding=utf-8
 set showcmd                      " display incomplete command
@@ -10,12 +11,16 @@ filetype plugin indent on        " load file type plugins + indentation
 
 set clipboard=unnamed            " Use system clipboard (compiled with +clipboard)
 
+"" Solarized
+let g:solarized_menu=0
+set background=dark
+colorscheme solarized
+
 "" Style
 syntax enable
-colorscheme solarized
-set background=dark
-set guifont=Source\ Code\ Pro\ Light:h14
+set guifont=Source\ Code\ Pro:h15
 set linespace=2
+set antialias
 set synmaxcol=256               " don't try to highlight long lines
 
 
@@ -31,7 +36,6 @@ set incsearch                   " incremental searching
 set ignorecase                  " searches are case insensitive...
 set smartcase                   " ... unless they contain at least one capital letter
 set gdefault                    " have :s///g flag by default on
-
 set history=1000                " remember more commands and search history
 set undolevels=1000             " use many muchos levels of undo
 
@@ -59,4 +63,3 @@ set statusline+=\ %m%r%w\             " modified?
 hi User1 guifg=#657b83  guibg=#094454
 hi User2 guifg=#094454  guibg=#657b83
 
-let mapleader=","
