@@ -18,11 +18,11 @@ colorscheme solarized
 
 "" Style
 syntax enable
-set guifont=Source\ Code\ Pro:h15
+set guifont=Source\ Code\ Pro\ for\ Powerline:h15
 set linespace=2
 set antialias
-set synmaxcol=256               " don't try to highlight long lines
-
+set synmaxcol=1024               " don't try to highlight really long lines
+let g:airline_powerline_fonts = 1
 
 "" Whitespace
 set wrap                        " wrap lines
@@ -51,15 +51,3 @@ set autoread                    " reload externally edited files
 
 " Status line
 set laststatus=2
-set statusline=
-set statusline+=%2*
-set statusline+=\ %n\                 " buffer number
-set statusline+=%1*
-set statusline+=\ %<%f\               " filename
-set statusline+=\ %=\ Line:\ %l:%c    " row:column number
-set statusline+=\ %P                  " top/bot
-set statusline+=\ %m%r%w\             " modified?
-
-hi User1 guifg=#657b83  guibg=#094454
-hi User2 guifg=#094454  guibg=#657b83
-
