@@ -18,7 +18,7 @@ colorscheme solarized
 
 "" Style
 syntax enable
-set guifont=Source\ Code\ Pro\ for\ Powerline:h15
+set guifont=Sauce\ Code\ Powerline\ Light:h15
 set linespace=2
 set antialias
 set synmaxcol=1024               " don't try to highlight really long lines
