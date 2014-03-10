@@ -38,6 +38,12 @@ set smartcase                   " ... unless they contain at least one capital l
 set gdefault                    " have :s///g flag by default on
 set history=1000                " remember more commands and search history
 set undolevels=1000             " use many muchos levels of undo
+let g:ctrlp_user_command = {
+  \ 'types': {
+    \ 1: ['.git', 'cd %s && git ls-files --cached --exclude-standard --others']
+    \ },
+  \ 'fallback': 'find %s -type f'
+  \ }
 
 "" Invisible characters
 set list                        " show invisible characters
