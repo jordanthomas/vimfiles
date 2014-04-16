@@ -23,7 +23,7 @@
 	path = bundle/ag
 	url = git@github.com:rking/ag.vim.git
 [submodule "bundle/vim-airline"]
-	path = bundle/vim-airline
+	path = bundle/airline
 	url = https://github.com/bling/vim-airline
 [submodule "bundle/fugitive"]
 	path = bundle/fugitive
