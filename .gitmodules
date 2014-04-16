@@ -31,3 +31,6 @@
 [submodule "bundle/bufferline"]
 	path = bundle/bufferline
 	url = https://github.com/bling/vim-bufferline
+[submodule "bundle/jade"]
+	path = bundle/jade
+	url = git://github.com/digitaltoad/vim-jade.git
