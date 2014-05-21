@@ -11,7 +11,7 @@ git submodules.
 3. [vim-bufferline](https://github.com/bling/vim-bufferline) - Show buffers in statusline
 4. [vim-coffee-script](https://github.com/kchmck/vim-coffee-script) - For Coffee syntax and other niceties
 5. [vim-commentary](https://github.com/tpope/vim-commentary) - For commenting
-6. [ctrl.vim](https://github.com/kien/ctrlp.vim) - For finding files
+6. [ctrlp.vim](https://github.com/kien/ctrlp.vim) - For finding files
 7. [vim-fugitive](https://github.com/tpope/vim-fugitive) - For git
 8. [html5.vim](https://github.com/othree/html5.vim) - For HTML5 syntax
 9. [vim-jade](https://github.com/digitaltoad/vim-jade) - For Jade template syntax
