@@ -4,6 +4,8 @@ This project contains all the settings and plugins I use for Vim. It uses
 [pathogen.vim](https://github.com/tpope/vim-pathogen) to manage plugins as
 git submodules.
 
+![Screenshot of Vim](https://github.com/jordanthomas/vimfiles/raw/master/screenshot.png)
+
 ## Plugins
 
 1. [ag.vim](https://github.com/rking/ag.vim) - For searching via the_silver_searcher
