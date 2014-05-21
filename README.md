@@ -18,6 +18,7 @@ git submodules.
 10. [vim-javascript](https://github.com/pangloss/vim-javascript) - For Javascript syntax
 11. [vim-markdown](https://github.com/tpope/vim-markdown) - For Markdown syntax
 12. [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized) - The Solarized theme
+13. [indentLine](https://github.com/Yggdroot/indentLine) - For indent guides.
 
 ## Setup
 
