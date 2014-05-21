@@ -23,6 +23,7 @@ set linespace=2
 set antialias
 set synmaxcol=1024               " don't try to highlight really long lines
 let g:airline_powerline_fonts = 1
+let g:indentLine_char = '│'
 
 "" Whitespace
 set wrap                        " wrap lines
