@@ -13,6 +13,7 @@ set clipboard=unnamed            " Use system clipboard (compiled with +clipboar
 
 "" Solarized
 let g:solarized_menu=0
+let g:solarized_termtrans = 1
 set background=dark
 colorscheme solarized
 
