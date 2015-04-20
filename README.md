@@ -46,7 +46,8 @@ The [ag.vim](https://github.com/rking/ag.vim) plugin uses the_silver_searcher. Y
   3. `git submodule init`
   4. `git submodule update`
   5. `ln -s ~/.vim/vimrc ~/.vimrc`
-  6. Enjoy.
+  6. `ln -s ~/.vim/gvimrc ~/.gvimrc`
+  7. Enjoy.
 
 ### Making tweaks
 

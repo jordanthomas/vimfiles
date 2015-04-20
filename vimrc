@@ -57,7 +57,7 @@ set scrolloff=4                 " keep 4 lines off the edges of the screen when 
 set hidden                      " allow files to be hidden in buffer
 set autoread                    " reload externally edited files
 
-autocmd FileType ruby,eruby set noballooneval " Disable Ruby eval balloons
+let g:netrw_nobeval = 1
 
 " Status line
 set laststatus=2
