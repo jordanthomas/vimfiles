@@ -12,7 +12,6 @@ filetype plugin indent on        " load file type plugins + indentation
 set clipboard=unnamed            " Use system clipboard (compiled with +clipboard)
 
 "" Solarized
-let g:solarized_menu=0
 let g:solarized_termtrans = 1
 set background=dark
 colorscheme solarized
