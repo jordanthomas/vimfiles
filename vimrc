@@ -15,6 +15,7 @@ set clipboard=unnamed            " Use system clipboard (compiled with +clipboar
 let g:solarized_termtrans = 1
 set background=dark
 colorscheme solarized
+call togglebg#map("<F5>")
 
 "" Style
 syntax enable
