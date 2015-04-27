@@ -22,24 +22,26 @@ syntax enable
 set guifont=Sauce\ Code\ Powerline\ Light:h15
 set linespace=2
 set antialias
-set synmaxcol=1024               " don't try to highlight really long lines
+set synmaxcol=1024                 " don't try to highlight really long lines
 let g:airline_powerline_fonts = 1
 let g:indentLine_char = '│'
 
 "" Whitespace
-set wrap                        " wrap lines
-set tabstop=2 shiftwidth=2      " a tab is two spaces (or set this to 4)
-set expandtab                   " use spaces, not tabs (optional)
-set backspace=indent,eol,start  " backspace through everything in insert mode
+set wrap                          " wrap lines
+set tabstop=2 shiftwidth=2        " a tab is two spaces
+set expandtab                     " use spaces, not tabs
+set backspace=indent,eol,start    " backspace through everything in insert mode
 
 "" Searching
-set hlsearch                    " highlight matches
-set incsearch                   " incremental searching
-set ignorecase                  " searches are case insensitive...
-set smartcase                   " ... unless they contain at least one capital letter
-set gdefault                    " have :s///g flag by default on
-set history=1000                " remember more commands and search history
-set undolevels=1000             " use many muchos levels of undo
+set hlsearch                      " highlight matches
+set incsearch                     " incremental searching
+set ignorecase                    " searches are case insensitive...
+set smartcase                     " ... unless they contain at least one capital letter
+set gdefault                      " have global flag on by default
+set history=1000                  " remember more commands and search history
+set undolevels=1000               " use many muchos levels of undo
+
+"" CtrlP
 let g:ctrlp_user_command = {
   \ 'types': {
     \ 1: ['.git', 'cd %s && git ls-files --cached --exclude-standard --others']
@@ -57,7 +59,7 @@ set scrolloff=4                 " keep 4 lines off the edges of the screen when 
 set hidden                      " allow files to be hidden in buffer
 set autoread                    " reload externally edited files
 
-let g:netrw_nobeval = 1
+let g:netrw_nobeval = 1         " Disable netrw eval balloons
 
 " Status line
 set laststatus=2
