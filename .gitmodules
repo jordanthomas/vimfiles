@@ -37,3 +37,6 @@
 [submodule "bundle/indentline"]
 	path = bundle/indentline
 	url = git@github.com:Yggdroot/indentLine.git
+[submodule "bundle/css3"]
+	path = bundle/css3
+	url = git@github.com:hail2u/vim-css3-syntax.git
