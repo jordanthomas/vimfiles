@@ -49,6 +49,9 @@ let g:ctrlp_user_command = {
   \ 'fallback': 'find %s -type f'
   \ }
 
+"" Ag - lowercase and no auto-open
+cnoremap ag Ag!
+
 "" Invisible characters
 set list                        " show invisible characters
 set listchars=tab:▸\ ,trail:•,extends:❯,precedes:❮,eol:¬
