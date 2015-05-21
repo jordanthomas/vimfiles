@@ -20,7 +20,7 @@ call togglebg#map("<F5>")
 "" Style
 syntax enable
 set guifont=Sauce\ Code\ Powerline\ Light:h15
-set linespace=2
+set linespace=2                    " line height
 set antialias
 set synmaxcol=1024                 " don't try to highlight really long lines
 let g:airline_powerline_fonts = 1
@@ -35,11 +35,11 @@ set backspace=indent,eol,start    " backspace through everything in insert mode
 "" Searching
 set hlsearch                      " highlight matches
 set incsearch                     " incremental searching
-set ignorecase                    " searches are case insensitive...
-set smartcase                     " ... unless they contain at least one capital letter
-set gdefault                      " have global flag on by default
-set history=1000                  " remember more commands and search history
-set undolevels=1000               " use many muchos levels of undo
+set ignorecase                    " case-insensitive search
+set smartcase                     " case-sensitive if you use a cap
+set gdefault                      " global search by default
+set history=100                   " increase command and search history
+set undolevels=1000               " increase undo level
 
 "" CtrlP
 let g:ctrlp_user_command = {
