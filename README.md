@@ -12,16 +12,16 @@ git submodules.
 2. [vim-airline](https://github.com/bling/vim-airline) - Fancy statusline
 3. [vim-bufferline](https://github.com/bling/vim-bufferline) - Show buffers in statusline
 4. [vim-coffee-script](https://github.com/kchmck/vim-coffee-script) - For Coffee syntax and other niceties
-5. [vim-commentary](https://github.com/tpope/vim-commentary) - For commenting
-6. [vim-css3-syntax](https://github.com/hail2u/vim-css3-syntax) - For CSS3/SCSS syntax
-7. [ctrlp.vim](https://github.com/kien/ctrlp.vim) - For finding files
-8. [vim-fugitive](https://github.com/tpope/vim-fugitive) - For git
-9. [html5.vim](https://github.com/othree/html5.vim) - For HTML5 syntax
-10. [vim-jade](https://github.com/digitaltoad/vim-jade) - For Jade template syntax
-11. [vim-javascript](https://github.com/pangloss/vim-javascript) - For Javascript syntax
-12. [vim-markdown](https://github.com/tpope/vim-markdown) - For Markdown syntax
-13. [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized) - The Solarized theme
-14. [indentLine](https://github.com/Yggdroot/indentLine) - For indent guides
+5. [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized) - The Solarized theme
+6. [vim-commentary](https://github.com/tpope/vim-commentary) - For commenting
+7. [vim-css3-syntax](https://github.com/hail2u/vim-css3-syntax) - For CSS3/SCSS syntax
+8. [ctrlp.vim](https://github.com/kien/ctrlp.vim) - For finding files
+9. [vim-fugitive](https://github.com/tpope/vim-fugitive) - For git
+10. [html5.vim](https://github.com/othree/html5.vim) - For HTML5 syntax
+11. [indentLine](https://github.com/Yggdroot/indentLine) - For indent guidesV
+12. [vim-jade](https://github.com/digitaltoad/vim-jade) - For Jade template syntax
+13. [vim-javascript](https://github.com/pangloss/vim-javascript) - For Javascript syntax
+14. [vim-markdown](https://github.com/tpope/vim-markdown) - For Markdown syntax
 15. [surround](https://github.com/tpope/vim-surround) - For wrapping text
 
 ## Setup
