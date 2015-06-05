@@ -22,6 +22,7 @@ git submodules.
 12. [vim-markdown](https://github.com/tpope/vim-markdown) - For Markdown syntax
 13. [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized) - The Solarized theme
 14. [indentLine](https://github.com/Yggdroot/indentLine) - For indent guides
+15. [surround](https://github.com/tpope/vim-surround) - For wrapping text
 
 ## Setup
 
