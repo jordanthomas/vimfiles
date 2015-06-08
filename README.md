@@ -18,7 +18,7 @@ git submodules.
 8. [ctrlp.vim](https://github.com/kien/ctrlp.vim) - For finding files
 9. [vim-fugitive](https://github.com/tpope/vim-fugitive) - For git
 10. [html5.vim](https://github.com/othree/html5.vim) - For HTML5 syntax
-11. [indentLine](https://github.com/Yggdroot/indentLine) - For indent guidesV
+11. [indentLine](https://github.com/Yggdroot/indentLine) - For indent guides
 12. [vim-jade](https://github.com/digitaltoad/vim-jade) - For Jade template syntax
 13. [vim-javascript](https://github.com/pangloss/vim-javascript) - For Javascript syntax
 14. [vim-markdown](https://github.com/tpope/vim-markdown) - For Markdown syntax
