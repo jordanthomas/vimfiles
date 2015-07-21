@@ -52,7 +52,7 @@ let g:ctrlp_user_command = {
   \ }
 
 "" Ag - lowercase and no auto-open
-cnoremap ag Ag!
+noremap <Leader>ag :Ag!
 
 "" Invisible characters
 set list                        " show invisible characters
