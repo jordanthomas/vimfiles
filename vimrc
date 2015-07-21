@@ -23,6 +23,8 @@ set guifont=Sauce\ Code\ Powerline\ Light:h15
 set linespace=2                    " line height
 set antialias
 set synmaxcol=1024                 " don't try to highlight really long lines
+set cursorline                     " highlight current line
+set cursorcolumn                   " highlight current column
 let g:airline_powerline_fonts = 1
 let g:indentLine_char = '│'
 
