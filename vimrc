@@ -68,3 +68,5 @@ let g:netrw_nobeval = 1         " Disable netrw eval balloons
 
 " Status line
 set laststatus=2
+
+map <C-n> :NERDTreeToggle<CR>
