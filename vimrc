@@ -57,7 +57,7 @@ noremap <Leader>ag :Ag!
 "" Invisible characters
 set list                        " show invisible characters
 set listchars=tab:▸\ ,trail:•,extends:❯,precedes:❮,eol:¬
-set showbreak=↪\ 
+set showbreak=↳
 
 set number                      " show line numbers
 set scrolloff=4                 " keep 4 lines off the edges of the screen when scrolling
