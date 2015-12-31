@@ -22,7 +22,8 @@ git submodules.
 12. [vim-jade](https://github.com/digitaltoad/vim-jade) - For Jade template syntax
 13. [vim-javascript](https://github.com/pangloss/vim-javascript) - For Javascript syntax
 14. [vim-markdown](https://github.com/tpope/vim-markdown) - For Markdown syntax
-15. [vim-surround](https://github.com/tpope/vim-surround) - For wrapping text
+15. [nerdtree](https://github.com/scrooloose/nerdtree) - For directory navigation
+16. [vim-surround](https://github.com/tpope/vim-surround) - For wrapping text
 
 ## Setup
 
