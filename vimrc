@@ -17,6 +17,7 @@ set background=dark
 colorscheme solarized
 call togglebg#map("<F5>")
 
+
 "" Style
 syntax enable
 set guifont=Sauce\ Code\ Powerline\ Light:h15
@@ -42,14 +43,6 @@ set smartcase                     " case-sensitive if you use a cap
 set gdefault                      " global search by default
 set history=100                   " increase command and search history
 set undolevels=1000               " increase undo level
-
-"" CtrlP
-let g:ctrlp_user_command = {
-  \ 'types': {
-    \ 1: ['.git', 'cd %s && git ls-files --cached --exclude-standard --others']
-    \ },
-  \ 'fallback': 'find %s -type f'
-  \ }
 
 "" Ag - lowercase and no auto-open
 noremap <Leader>ag :Ag!
