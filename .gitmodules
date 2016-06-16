@@ -43,9 +43,6 @@
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
-[submodule "bundle/ctrlp"]
-	path = bundle/ctrlp
-	url = git@github.com:ctrlpvim/ctrlp.vim.git
 [submodule "bundle/airline-themes"]
 	path = bundle/airline-themes
 	url = git@github.com:vim-airline/vim-airline-themes.git
