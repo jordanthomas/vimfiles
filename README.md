@@ -22,8 +22,9 @@ git submodules.
 12. [vim-jade](https://github.com/digitaltoad/vim-jade) - For Jade template syntax
 13. [vim-javascript](https://github.com/pangloss/vim-javascript) - For Javascript syntax
 14. [vim-markdown](https://github.com/tpope/vim-markdown) - For Markdown syntax
-15. [nerdtree](https://github.com/scrooloose/nerdtree) - For directory navigation
-16. [vim-surround](https://github.com/tpope/vim-surround) - For wrapping text
+15. [matcher](https://github.com/burke/matcher) - For better Ctrl-P results
+16. [nerdtree](https://github.com/scrooloose/nerdtree) - For directory navigation
+17. [vim-surround](https://github.com/tpope/vim-surround) - For wrapping text
 
 ## Setup
 
@@ -38,10 +39,6 @@ read more about font patching in [Powerline’s docs](http://powerline.readthedo
 if none of the pre-patched ones suit your fancy. I’m using Source Code Pro in
 this repo so if you pick something else, be sure to update the vimrc file.
 
-### Install the_silver_searcher
-
-The [ag.vim](https://github.com/rking/ag.vim) plugin uses the_silver_searcher. You can install it via [Homebrew](http://brew.sh), there's a package called `the_silver_searcher`.
-
 ### Clone The Repo
 
   1. `git clone [your_vimfiles_repo] ~/.vim`
@@ -51,6 +48,16 @@ The [ag.vim](https://github.com/rking/ag.vim) plugin uses the_silver_searcher. Y
   5. `ln -s ~/.vim/vimrc ~/.vimrc`
   6. `ln -s ~/.vim/gvimrc ~/.gvimrc`
   7. Enjoy.
+
+### Install the_silver_searcher
+
+The [ag.vim](https://github.com/rking/ag.vim) plugin uses the_silver_searcher. You can install it via [Homebrew](http://brew.sh), there's a package called `the_silver_searcher`.
+
+### Make matcher plugin
+
+ 1. `cd ~/.vim/bundle/matcher`
+ 2. `make`
+ 3. `make install`
 
 ### Making tweaks
 
