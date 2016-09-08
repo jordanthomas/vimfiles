@@ -45,7 +45,7 @@ set history=100                   " increase command and search history
 set undolevels=1000               " increase undo level
 
 "" Ag - lowercase and no auto-open
-noremap <Leader>ag :Ag!
+ca Ag Ag!
 
 " The Silver Searcher
 if executable('ag')
