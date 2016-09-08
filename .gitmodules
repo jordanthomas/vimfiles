@@ -49,3 +49,6 @@
 [submodule "bundle/ctrlp"]
 	path = bundle/ctrlp
 	url = git@github.com:ctrlpvim/ctrlp.vim.git
+[submodule "bundle/matcher"]
+	path = bundle/matcher
+	url = https://github.com/burke/matcher
