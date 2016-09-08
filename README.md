@@ -28,14 +28,16 @@ git submodules.
 
 ## Setup
 
-**Before you get started: You probably want to fork this repo and work off your own copy of it.**
+**Before you get started: You probably want to fork this repo and work off your
+own copy of it.**
 
 ### Install a Patched Font
 
 Before you get to cloning the repo, you’ll want to install a patched font so
 the vim-airline plugin looks right. You can find some pre-patched fonts in the
 [powerline-fonts](https://github.com/Lokaltog/powerline-fonts) repo. You can
-read more about font patching in [Powerline’s docs](http://powerline.readthedocs.org/en/latest/fontpatching.html#font-patching)
+read more about font patching in
+[Powerline’s docs](http://powerline.readthedocs.org/en/latest/fontpatching.html#font-patching)
 if none of the pre-patched ones suit your fancy. I’m using Source Code Pro in
 this repo so if you pick something else, be sure to update the vimrc file.
 
@@ -51,7 +53,9 @@ this repo so if you pick something else, be sure to update the vimrc file.
 
 ### Install the_silver_searcher
 
-The [ag.vim](https://github.com/rking/ag.vim) plugin uses the_silver_searcher. You can install it via [Homebrew](http://brew.sh), there's a package called `the_silver_searcher`.
+The [ag.vim](https://github.com/rking/ag.vim) plugin uses the_silver_searcher.
+You can install it via [Homebrew](http://brew.sh), there's a package called
+`the_silver_searcher`.
 
 ### Make matcher plugin
 
