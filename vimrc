@@ -20,9 +20,8 @@ call togglebg#map("<F5>")
 
 "" Style
 syntax enable
-set guifont=Sauce\ Code\ Powerline\ Light:h15
+set guifont=Sauce\ Code\ Powerline:h15
 set linespace=2                    " line height
-set antialias
 set synmaxcol=1024                 " don't try to highlight really long lines
 set cursorline                     " highlight current line
 set cursorcolumn                   " highlight current column
